@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Home page Test",
+        "description": "",
+        "id": "spree-application-test;home-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11239965000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": user Load the Application URL \"\" in browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 33
+                }
+              ],
+              "location": "SpreeStepdef.user_Load_the_Application_URL_in_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3219956700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": user login the application",
+            "match": {
+              "location": "SpreeStepdef.user_login_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5994161700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": verify user is succefully logged in",
+            "match": {
+              "location": "SpreeStepdef.verify_user_is_succefully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Spree Application Test",
+    "description": "",
+    "id": "spree-application-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/cucumberFramework/featureFiles/test.feature"
+  }
+]
